@@ -1,0 +1,22 @@
+.paddingandborder,.margin{
+    background-color: aqua;
+    padding: 15px;
+    border:solid 12px; 
+    border-color: red;
+}
+.margin{
+    
+    text-align: end;
+}
+.margin:hover{
+    text-align: left;
+    background-color: blueviolet;
+    color: white;
+    border-color:indigo;
+    transition: calc(2s);
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 40px;
+    margin-right: 40px;
+}

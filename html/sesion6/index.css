@@ -1,0 +1,56 @@
+iframe en html pagina en otra pagina
+.titulo{
+    color: #f72585;
+    text-align: center;
+
+}
+.marco{
+    width: 100%;
+    height: 200px;
+    border: solid 1px #f72585;
+
+}
+.centrar{
+    text-align: center;
+
+}
+.boton{
+    background-color: whitesmoke;
+    border: solid 2px #457b9d;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+.boton:hover{
+    background-color: #398abd ;
+    color: white;
+}
+
+elementos inline y block 
+h1{
+    color: deeppink;
+    text-align: center;
+}
+h2{
+    color: blue;
+}
+p{
+    color: #457b9d;
+}
+span{
+    color: rgb(238, 72, 161);
+}
+.tarjeta{
+
+    border: solid 10px #19ad0b;
+    background-color: white;
+    text-align: center;
+    margin: 15px 115px;
+}
+#tarjeta{
+
+    border: solid 10px #9a0bad;
+    background-color: white;
+    text-align: center;
+    margin: 15px ;
+}

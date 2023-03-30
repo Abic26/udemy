@@ -1,0 +1,27 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* border-spacing: 5px; */
+    padding: 5px;
+}
+table{
+    width: 100%;
+}
+caption{
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:45px ;
+    padding: 5px;
+}
+th{
+    color: white;
+    background-color: darkmagenta;
+}
+/* renglones pares  even*/
+tr:nth-child(even){
+    background-color: #f1faee;
+}
+/* renglones inpares odd */
+tr:nth-child(odd){
+    background-color: #a8eadc  ;
+}

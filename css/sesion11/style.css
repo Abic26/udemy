@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: firebrick;
+}
+div.contenedor{
+    border: 3px solid greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    /* overflow: visible; propiedad por defecto */
+    /* overflow: hidden; oculta todo lo que se sale del div */
+    /* overflow: scroll;  barra de scroll horizontal y vertical y visualiza todo */
+    overflow: auto; /*"similar a scroll pero solo barra vertical"*/
+}

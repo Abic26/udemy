@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: hotpink;
+}
+
+.caja1{
+    padding: 10px 15px 5px 3px;
+    border:1px solid cornflowerblue;
+    margin: 20px  ;
+    background-color: rgba(210, 225, 220, 0.501);
+    max-width: 300px;
+    box-sizing: border-box;
+    
+}
+.caja2{
+    padding: 10px 15px 5px 3px;
+    border:1px solid cornflowerblue;
+    margin: 30px  ;
+    background-color: rgba(210, 225, 220, 0.501);
+    max-width: 300px;
+    box-sizing: border-box;
+    
+}

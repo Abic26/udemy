@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios en html</title>
+</head>
+<body>
+    
+<h1>formiularios en html</h1>
+<form action="mi_servidor"  >
+    <fieldset>
+        <legend>datos persona :</legend>
+        <label for="persona">persona</label><br>
+        <input type="text" name="persona" readonly="true"  id="persona" value="100" disabled="true"><br>
+
+        <input type="hidden" id="sistema" name="sistema" value="sap">
+
+        <label for="nombre">nombre</label><br>
+        <input type="text" name="nombre" required="true" placeholder="escribe tu numbre" id="nombre"><br>
+
+        <label for="apellido">apellido</label><br>
+        <input type="text" name="apellido" required="true" placeholder="escribe tu apellido" id="apellido"><br>
+
+        <label for="Email">Email</label><br>
+        <input type="Email" name="Email" required="true"  id="Email"><br>
+
+        <label for="edad">edad</label><br>
+        <input type="number" name="edad" required="true"  id="edad"><br>
+
+        <label >genero</label><br>
+        <input type="radio" name="genero" id="femenino" value="femenino"><label >femenino</label><br>
+        <input type="radio" name="genero" id="masculino" value="masculino"><label >masculino</label><br>
+
+        <label for="">musica favorita</label><br>
+        <input type="checkbox" id="clasica" name="musica" value="clasica">
+        <label for="">clasica</label><br>
+        <input type="checkbox" id="jazz" name="musica" value="jass">
+        <label for="">jazz</label><br>
+        <label for="autos">marcas auto favorita</label>
+        <select name="autos" id="auto">
+            <option value="volvo">volvo</option>
+            <option value="bmw">bmw</option>
+            <option value="audi">audi</option>
+        </select><br>
+
+        <label for="comentario">comentario</label>
+        <textarea name="comentario" id="comentario" cols="30" rows="2">este es mi tex area</textarea><br>
+
+        <input type="submit" value="enviar" >
+        <input type="submit" value="enviar sin validar" formnovalidate="formnovalidate" >
+        <input type="reset" value="restablecer" >
+
+</fieldset>
+</form>
+
+formiularios en htm
+<h1>formiularios en html</h1>
+<form>
+    <label for="nombre">nombre</label><br>
+    <input type="text" name="nombre" required="true" placeholder="escribe tu numbre" id="nombre"><br>
+    <label for="apellido">apellido</label><br>
+    <input type="text" name="apellido" placeholder="escribe tu apellido" id="apellido"><br>
+    <input type="submit" value="enviar" >
+    <input type="submit" value="enviar sin validar" formnovalidate="formnovalidate" >
+</form>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
